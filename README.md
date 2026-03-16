@@ -5,7 +5,7 @@ Analyse simple d'un dataset d'animés : nettoyage des données et classement des
 
 ## Données
 - **Fichier :** `animes.csv`
-- **57 animés** avec leurs notes, genres, studios et commentaires
+- **59 lignes brutes** (58 animés uniques après suppression des doublons)
 
 ## Comment exécuter
 1. Installer les bibliothèques : `pip install pandas numpy matplotlib`
@@ -24,7 +24,7 @@ Un classement des 10 meilleurs animés basé sur leur note et leur popularité.
 
 ## Réflexions
 - Le nombre d'épisodes est un proxy imparfait pour la popularité
-- 24 animés sur 57 n'ont pas de note et sont exclus
+- 25 animés sur 58 n'ont pas de note et sont exclus
 - On utilise le logarithme pour éviter qu'One Piece (1090 épisodes) écrase tout le monde
 
 ## Auteur
