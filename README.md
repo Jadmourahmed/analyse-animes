@@ -1,4 +1,4 @@
-# Analyse des animés 🎌
+# Analyse des animés 
 
 ## Description
 Analyse simple d'un dataset d'animés : nettoyage des données et classement des 10 meilleurs.
